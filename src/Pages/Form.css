@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Form Styles */
+.form-label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-submit {
+    background-color: #343a40;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #23272b;
+    box-shadow: 0 4px 8px rgba(52, 58, 64, 0.3);
+}
+
+hr {
+    border-top: 2px solid #343a40;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 30px;
+}
